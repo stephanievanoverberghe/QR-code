@@ -19,6 +19,10 @@
         padding: 1.5rem;
     }
 
+    @include xl {
+        width: 15%;
+    }
+
     img {
         border-radius: 1.5rem;
     }
