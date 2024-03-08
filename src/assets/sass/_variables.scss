@@ -1,0 +1,28 @@
+:root {
+
+    // color
+
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+    --box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .3), 0 1px 3px 1px rgba(60, 64, 67, .15);
+
+    // font
+    @font-face {
+        font-family: 'outfit';
+        src: url(../font/Outfit-Regular.ttf) format('truetype');
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'outfit';
+        src: url(../font/Outfit-Bold.ttf) format('truetype');
+        font-weight: 700;
+        font-style: bold;
+    }
+
+    --font: 'outfit',
+    sans-serif;
+}

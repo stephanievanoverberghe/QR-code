@@ -1,0 +1,33 @@
+@use 'variables';
+@use 'media-queries' as *;
+@use 'bases';
+
+.container {
+    background: var(--white);
+    width: 85%;
+    border-radius: 2rem;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+
+    @include md {
+        width: 50%;
+    }
+
+    @include lg {
+        width: 35%;
+        padding: 1.5rem;
+    }
+
+    img {
+        border-radius: 1.5rem;
+    }
+
+    .container-text {
+        padding: 2rem;
+
+        p {
+            margin-top: 1rem;
+        }
+    }
+}
